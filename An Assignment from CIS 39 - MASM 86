@@ -1,0 +1,219 @@
+;; Final Program
+
+;;CIS 39 Assembly Programming
+
+;;Final HW - 
+
+;; NATHAN BASANESE - 1727643
+
+
+
+;;Write an assembly language program that inputs a person’s name like 
+
+;; Fred Eugene George and outputs George, Fred Eugene. 
+
+;;(Hints: Using indirect addressing, find the spaces and 
+
+;;record their position. Place a ‘$’ after Eugene…)
+
+
+
+			.MODEL Small
+
+			.STACK 100h
+
+			.586
+
+			
+
+			.DATA
+
+
+
+msg0		db 			10 , 13 , "ENTER YOUR FIRST, SECOND, THIRD, " 
+
+			db 			10 , 13 , "ETC. NAMES, JUST ONE SPACE BETWEEN " 
+
+			db 			10 , 13 , "EACH NAME, NO SPACE AT THE END: $" 
+
+msg1		db			10 , 13 , "Name Length is $" 
+
+msg2 		db 			10 , 13 , "SPACE IS AT: $" ; used for debugging 
+
+crlf		db 			10 , 13 , '$' 
+
+
+
+spaceAt		dw 			?
+
+spaceRel	dw 			?
+
+Name1		db 			?
+
+;; Begin Data Structure
+
+bufSize		db			100
+
+bufCount 	db 			? 
+
+buffer 		db 			100 dup ('$') 
+
+
+
+;;End Data Structure. 
+
+;Location     Value 
+
+;----------   ---------
+
+;@GetBuf      100       (first 2 bytes are the buffer size)
+
+;@GetBuf+2    ?			(next byte is the counter for position 
+
+;										within the buffer)
+
+;@GetBuf+3    $			(further bytes up to byte 104 are $ now)
+
+;@GetBuf+4    $
+
+;      ...    $
+
+;@GetBuf+104  $
+
+
+
+
+
+			.CODE
+
+			EXTRN 		PutDec : Near , GetDec : Near
+
+Main 		PROC 
+
+			mov 		AX , @data
+
+			mov 		DS , AX 
+
+			
+
+			mov 		AH , 9h 
+
+			lea 		DX , msg0 
+
+			int 		21h 
+
+			
+
+			mov 		AH , 0Ah
+
+			lea 		DX , BufSize 
+
+			int 		21h ; 	I think this "reads in a string". 
+
+							;	not sure what that means. 
+
+			
+
+			mov 		AH , 9h
+
+			lea 		DX , crlf  
+
+			int 		21h ; goes to a new line after value entered. 
+
+			
+
+						; lines below display "name length is"
+
+			mov 		AH , 9h 
+
+			lea 		DX , msg1 
+
+			int 		21h 
+
+			
+
+			mov 		AX , 0 ; clear top half of AX
+
+			
+
+			; lines below display string length
+
+			mov 		AL , 0Ah ; 0Ah is opcode for reading
+
+									; in string at address in DX 
+
+			mov 		AL , BufSize + 1 
+
+			call 		PutDec 
+
+			call 		GetDec 
+
+			
+
+			; put a comma after the last name
+
+			lea SI, buffer 
+
+			mov DX, 0 
+
+			mov DL, bufCount 
+
+			add SI, DX 
+
+			mov byte ptr [SI], ',' 
+
+			
+
+			; replace space with $
+
+cmpChr:
+
+			cmp byte ptr [SI], ' '
+
+			je found
+
+			dec SI			;
+
+			jmp cmpChr
+
+			found:
+
+			mov byte ptr [SI], '$'	
+
+			
+
+			inc SI			;move forward now
+
+			mov DX , SI		; output starting at char after $, 
+
+			mov AH , 9h
+
+			int 21h			; stops at the end of the buffer
+
+			
+
+			mov AH , 2h 
+
+			mov DX , ' ' 
+
+			int 21h
+
+			
+
+			mov AH , 9h
+
+			lea dx, buffer 	; output starting at buffer start. 
+
+			int 21h
+
+			
+
+			mov 		AH , 04Ch
+
+			int 		21h
+
+			
+
+Main 		ENDP 
+
+			END 		Main 
