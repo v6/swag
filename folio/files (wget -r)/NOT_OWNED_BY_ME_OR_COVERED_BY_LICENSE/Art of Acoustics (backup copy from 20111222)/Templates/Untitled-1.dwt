@@ -1,0 +1,168 @@
+<!-- TemplateBeginEditable name="head" --><!-- TemplateEndEditable --><!-- InstanceBegin template="/Templates/assimaster.dwt" codeOutsideHTMLIsLocked="false" --><!-- InstanceBeginEditable name="pre-head" --><!-- InstanceEndEditable --> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<!-- InstanceBeginEditable name="doctitle" --> 
+<title>Ceiling Tile Grid Estimator Calculator</title>
+<meta name="Description" content="Caclulate The Amount of Tile Grid Needed for Your Project" />
+<meta name="Keywords" content="Ceiling Grid Calculator, Ceiling Tile Calculator, Ceiling Grid Estimator" />
+<script language="JavaScript" type="text/javascript">
+<!-- Begin
+function gridcalc (form) {
+form.mains.value = form.ttlsquarefeet.value/48;
+form.fourtees.value = form.mains.value*6;
+form.twotees.value = form.mains.value*6;
+form.wallmold.value = form.perimeter.value/12;
+}
+// End -->
+</script>
+<!-- InstanceEndEditable --> 
+<script type="text/javascript" src="../../assets/js/jquery-1.2.2.pack.js"></script>
+<script type="text/javascript" src="../../assets/js/animatedcollapse.js">
+
+/***********************************************
+* Animated Collapsible DIV v2.0- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+***********************************************/
+
+</script>
+<script type="text/javascript">
+
+animatedcollapse.addDiv('contact', 'fade=1')
+animatedcollapse.init()
+
+</script>
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable --> 
+<link href="../assets/css/assibody.css" rel="stylesheet" type="text/css" />
+<link href="../assets/css/dropdown/dropdown.css" media="all" rel="stylesheet" type="text/css" />
+<link href="../assets/css/dropdown/themes/adobe.com/default.advanced.css" media="all" rel="stylesheet" type="text/css" />
+<!--[if lt IE 7]>
+<script type="text/javascript" src="../www/assets/js/jquery/jquery.js"></script>
+<script type="text/javascript" src="../www/assets/js/jquery/jquery.dropdown.js"></script>
+<![endif]-->
+<!--[if IE]> <link href="http://www.acousticalspecialties.com/new/assets/css/ie.css" rel="stylesheet" type="text/css"> <![endif]-->
+</head>
+<body>
+<br />
+<div class="clear"></div>
+<div id="assiwrapper"> 
+  <div id="header"></div>
+  <ul id="nav" class="dropdown dropdown-horizontal" style="background-color:#EEEEEE; width:100%; border-top:solid 1px #D8D8D8; border-bottom:solid 1px #BFBFBF;">
+    <li><a href="../artindex.html">Home</a></li>
+    <li><a href="../divisions.html" class="dir">Products</a> 
+      <ul>
+        <li class="empty">Divisions</li>
+        <li><a href="../appliances/index.html">Appliances</a></li>
+        <li><a href="../brick/index.html">Brick & Glassblock</a></li>
+        <li><a href="../cabinets/index.html">Cabinets & Countertops</a></li>
+        <li><a href="index.html">Ceilings & Commerical Insulation</a></li>
+        <li><a href="../drywall/index.html">Drywall & Metal Framing</a></li>
+        <li><a href="../fireplace/index.html">Fireplaces & Stone</a></li>
+        <li><a href="../fire-proofing-sealants/index.html">Fire Protection and 
+          Sealants</a></li>
+        <li><a href="../FRP/index.html">Fiberglass Reinforced Polyester Panels 
+          (FRP)</a></li>
+        <li><a href="../flooring/index.html">Flooring</a></li>
+        <li><a href="../marble/index.html">Cultured Marble</a></li>
+        <li><a href="../insulation-residential/index.html">Insulation (Residential)</a></li>
+        <li><a href="../stilts-scaffolds-tools/index.html">Stilts, Scaffolds, 
+          & Tools</a></li>
+        <li><a href="../stucco/index.html">Stucco</a></li>
+        <li class="empty">Solutions</li>
+        <li><a href="./">Home Builders Center</a></li>
+      </ul>
+    </li>
+    <li><a href="../locations.html" class="dir">Locations</a> 
+      <ul>
+        <li><a href="../locations/batonrougelocation.html">Baton Rouge, Louisiana</a></li>
+        <li><a href="../locations/convingtonlocation.html">Covington, Lousisana</a></li>
+        <li><a href="../locations/hammondlocation.html">Hammond, Lousisana</a></li>
+      </ul>
+    </li>
+    <li><a href="../homebuilderscenter.html" class="dir">Home Builders Center</a></li>
+    <li><a href="../about.html" class="dir">About Us</a></li>
+    <li><a href="../contact.html" class="dir">Contact Us</a></li>
+    <li><a href="../ourmission.html" class="dir">Mission Statement</a> </li>
+  </ul>
+  <br class="clearit">
+  <div id="navbar"> 
+    <div style="text-align: right;"> 
+      <div style="float: left;"> <!-- InstanceBeginEditable name="breadcrumbs" --><a href="../artindex.html">Home</a> 
+        &raquo; <a href="../divisions.html">Divisions</a> &raquo; <a href="index.html">Ceilings</a> 
+        &raquo; Grid Estimator <!-- InstanceEndEditable --> </div>
+    </div>
+    <script language="javascript" type="text/javascript">
+	/* Addons display js */
+function toggleSize(big) {
+var sb = document.getElementById('searchbox');
+if (big)
+sb.style.width = '18em;';
+else
+sb.style.width = '10em;';
+}
+</script>
+  </div>
+  <div id="mainarea"><!-- InstanceBeginEditable name="Main" --> 
+    <form id="form1" name="form1" method="post" action="">
+      <blockquote> 
+        <p>Enter the total square footage of the room:<br />
+          <input type="text"
+  name="ttlsquarefeet" size="15" />
+          <br />
+          <br />
+          Enter the combined length of all walls in room in feet:<br />
+          <input type="text"
+  name="perimeter" size="15" />
+        </p>
+      </blockquote>
+      <p>&nbsp; </p>
+      <blockquote> 
+        <input name="button" type="button" onClick="gridcalc(this.form)" value="Calculate" />
+      </blockquote></p>
+      <blockquote> 
+        <p>Materials needed: (approximations only)</p>
+        <p> 
+          <input type="text" name="mains" size="7" />
+          pieces of 12 foot main runners;</p>
+        <p> 
+          <input type="text" name="fourtees" size="7" />
+          pieces of 4 foot cross-tees;</p>
+        <p> 
+          <input type="text" name="twotees" size="7" />
+          pieces of 2 foot cross-tees. (If your ceiling tile is 2' x 2'.)</p>
+        <p> 
+          <input type="text" name="wallmold" size="7" />
+          pieces of 12 foot wall mold;</p>
+      </blockquote>
+    </form>
+    <p>&nbsp;</p>
+    <p>*Use 4 pieces of ceiling wire per main runner. Length of wire should be 
+      distance from ceiling to anchor point plus 2 foot extra to tie.<br />
+    </p>
+    <p>*These are estimates only. Actual quantities may vary due to your particular 
+      circumstances, including but not limited to, furred down ceilings, hallways, 
+      irregular shaped rooms, etc.&nbsp; Please use this as a rough estimation 
+      only.</p>
+    <!-- InstanceEndEditable --></div>
+  <div class="clear"></div>
+  <div id="footer" align="center"><br>
+    <span><a href="../artindex.html">Home</a> | <a href="../divisions.html">Divisions</a> 
+    | <a href="../locations.html">Locations</a> | <a href="../contact.html">Contact</a> 
+    | <a href="../ourmission.html">Mission Statement</a> | <a href="https://mail.acousticalspecialties.com/Remote" class="linkstyle">Employee 
+    Access</a></span></div>
+  <img src="../assets/menuimages/850pxspacer.gif" alt="spacer" width="850" height="1" /></div>
+<p></p>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-4468640-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+<!-- InstanceEnd -->
+</html>
+

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simpleviewergallery maxImageWidth="500" maxImageHeight="500" textColor="0xFFFFFF" frameColor="0xFFFFFF" frameWidth="20" stagePadding="40" navPadding="40" thumbnailColumns="3" thumbnailRows="5" navPosition="left" vAlign="center" hAlign="center" title="artofacoustics.com Gallery" enableRightClickOpen="false" backgroundImagePath="" imagePath="" thumbPath="">
+
+<!--Begin Baffles -->
+<image>
+	<filename>cylinder1.jpg</filename>
+	<caption>Custom Cylinder Baffles</caption>	
+</image>
+<image>
+	<filename>baffles2.jpg</filename>
+	<caption>Sonex Baffles</caption>	
+</image>
+<image>
+	<filename>linear2.jpg</filename>
+	<caption>Custom Linear Baffles</caption>	
+</image>
+<image>
+	<filename>dolfin1.jpg</filename>
+	<caption>Custom Dolfin Baffles</caption>	
+</image>
+
+<!--End Baffles -->
+
+<!--Begin Contour -->
+<image>
+	<filename>contour1.jpg</filename>
+	<caption>Contour Ceiling Panels</caption>	
+</image>
+<image>
+	<filename>contour2.jpg</filename>
+	<caption>Contour Ceiling Panels</caption>	
+</image>
+<image>
+	<filename>contour3.jpg</filename>
+	<caption>Contour Ceiling Panels</caption>	
+</image>
+<image>
+	<filename>flats2.jpg</filename>
+	<caption>Flat Ceiling Panels</caption>	
+</image>
+<!--End Contour -->
+
+<!--Begin Churches/Boardrooms-->
+<image>
+	<filename>boardroom3.jpg</filename>
+	<caption>Custom Fabric Panels</caption>	
+</image>
+<image>
+	<filename>boardroom2.jpg</filename>
+	<caption>Custom Fabric Panels</caption>	
+</image>
+<image>
+	<filename>boardroom1.jpg</filename>
+	<caption>Custom Fabric Panels</caption>	
+</image>
+<image>
+	<filename>church3.jpg</filename>
+	<caption>Custom Fabric Panels</caption>	
+</image>
+<image>
+	<filename>church1.jpg</filename>
+	<caption>Custom Fabric Panels</caption>	
+</image>
+<image>
+	<filename>church2.jpg</filename>
+	<caption>Custom Fabric Panels</caption>	
+</image>
+<image>
+	<filename>classroom1.jpg</filename>
+	<caption>Custom Fabric Panels</caption>	
+</image>
+
+<!--End Churches/Boardrooms-->
+
+<!--Begin Phonstop -->
+<image>
+	<filename>phonstop3.jpg</filename>
+	<caption>Phonstop Wall & Ceiling Tiles</caption>	
+</image>
+<!--End Phonstop -->
+
+<!--Begin Sonex -->
+<image>
+	<filename>sonexone3.jpg</filename>
+	<caption>Sonex Wall & Ceiling Tiles</caption>	
+</image>
+<image>
+	<filename>sonexone1.jpg</filename>
+	<caption>Sonex Wall & Ceiling Tiles</caption>	
+</image>
+<image>
+	<filename>sonexone2.jpg</filename>
+	<caption>Sonex Wall & Ceiling Tiles</caption>	
+</image>
+<!--End Sonex -->
+
+<!--Begin Squareline -->
+<image>
+	<filename>squareline4.jpg</filename>
+	<caption>SquareLine Ceiling Tiles</caption>	
+</image>
+<image>
+	<filename>squareline1.jpg</filename>
+	<caption>SquareLine Ceiling Tiles</caption>	
+</image>
+<image>
+	<filename>squareline2.jpg</filename>
+	<caption>SquareLine Ceiling Tiles</caption>	
+</image>
+<image>
+	<filename>squareline5.jpg</filename>
+	<caption>SquareLine Ceiling Tiles</caption>	
+</image>
+<image>
+	<filename>squareline6.jpg</filename>
+	<caption>SquareLine Ceiling Tiles</caption>	
+</image>
+<!--End Squareline -->
+
+<!--Begin Theater -->
+<image>
+	<filename>theater4.jpg</filename>
+	<caption>Custom Fabric Panels</caption>	
+</image>
+<image>
+	<filename>theater3.jpg</filename>
+	<caption>Custom Fabric Panels</caption>	
+</image>
+<image>
+	<filename>theater2.jpg</filename>
+	<caption>Custom Fabric Panels</caption>	
+</image>
+<image>
+	<filename>theater6.jpg</filename>
+	<caption>Custom Fabric Panels</caption>	
+</image>
+<image>
+	<filename>theater1.jpg</filename>
+	<caption>Custom Fabric Panels</caption>	
+</image>
+<image>
+	<filename>theater11.jpg</filename>
+	<caption>Custom Fabric Panels</caption>	
+</image>
+<image>
+	<filename>theater5.jpg</filename>
+	<caption>Custom Fabric Panels</caption>	
+</image>
+<image>
+	<filename>theater12.jpg</filename>
+	<caption>Custom Fabric Panels</caption>	
+</image>
+<image>
+	<filename>theater13.jpg</filename>
+	<caption>Custom Fabric Panels</caption>	
+</image>
+<image>
+	<filename>theater9.jpg</filename>
+	<caption>Custom Fabric Panels</caption>	
+</image>
+<image>
+	<filename>theater10.jpg</filename>
+	<caption>Custom Fabric Panels</caption>	
+</image>
+<image>
+	<filename>theater8.jpg</filename>
+	<caption>Custom Fabric Panels</caption>	
+</image>
+<image>
+	<filename>theater7.jpg</filename>
+	<caption>Custom Fabric Panels</caption>	
+</image>
+
+<!--End Theater -->
+
+<!--Begin Diffusors -->
+<image>
+	<filename>diffuser1.jpg</filename>
+	<caption>RealQuad Diffuser </caption>	
+</image>
+
+<!--End Diffusors-->
+
+<!--Begin Bioline -->
+<image>
+	<filename>bioline2.jpg</filename>
+	<caption>BioLine Solid Wood Ceiling Tiles</caption>	
+</image>
+<image>
+	<filename>bioline4.jpg</filename>
+	<caption>BioLine Organic Wood Ceiling Tiles</caption>	
+</image>
+<image>
+	<filename>bioline1.jpg</filename>
+	<caption>BioLine Solid Wood Ceiling Tiles</caption>	
+</image>
+<!--End Bioline -->
+
+<!--Begin Whiteline -->
+<image>
+	<filename>whiteline1.jpg</filename>
+	<caption>WhiteLine Ceiling Tiles</caption>	
+</image>
+<image>
+	<filename>whiteline2.jpg</filename>
+	<caption>WhiteLine Ceiling Tiles</caption>	
+</image>
+<!--End Whiteline -->
+
+<!--Begin Misc-->
+<image>
+	<filename>boardroom4.jpg</filename>
+	<caption>Custom Fabric Panels</caption>	
+</image>
+<image>
+	<filename>car1.jpg</filename>
+	<caption>Custom Fabric Panels</caption>	
+</image>
+<image>
+	<filename>wedge1.jpg</filename>
+	<caption>Anechoic Chamber</caption>	
+</image>
+<!--End Misc-->
+</simpleviewergallery>
